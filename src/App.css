@@ -147,6 +147,10 @@ footer .inner-content {
 }
 
 /* Add Page */
+.add-page{
+  min-height: 70vh;
+}
+
 .add-content {
   padding: 50px 0;
   max-width: 600px;
@@ -216,6 +220,7 @@ footer .inner-content {
 /* Movie Page */
 .movie-page {
   padding: 30px 0;
+  min-height: 70vh;
 }
 
 .movie-page .header {
@@ -237,7 +242,7 @@ footer .inner-content {
 
 .movie-page .heading {
   /* color: var(--primary); */
-  color: var(--white);
+  color: white;
   margin: 0;
 }
 
@@ -318,4 +323,8 @@ footer .inner-content {
   color: #c4c4c4;
   font-size: 2rem;
   text-align: center;
+}
+
+@media only screen and (max-width:670px){
+
 }

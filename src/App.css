@@ -147,7 +147,7 @@ footer .inner-content {
 }
 
 /* Add Page */
-.add-page{
+.add-page {
   min-height: 70vh;
 }
 
@@ -325,6 +325,40 @@ footer .inner-content {
   text-align: center;
 }
 
-@media only screen and (max-width:670px){
-
+@media only screen and (max-width: 550px) {
+  header a {
+    font-size: 1rem;
+    align-items: center;
+  }
+  header .brand a {
+    font-size: 1.27rem;
+  }
+  header .nav-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  header .nav-links li {
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+  .movie-page .heading {
+    font-size: 1.25rem;
+  }
+  .movie-page .no-movies {
+    font-size: 1.2rem;
+  }
+  .count-pill {
+    font-size: 1rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
 }
